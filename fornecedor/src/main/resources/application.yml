@@ -1,16 +1,6 @@
-application:
-  name: loja
 server:
   port: 8081
-spring:
-  datasource:
-    password: root
-    username: root
-    url: jdbc:mysql://localhost:3306/fornecedor
-  jpa:
-    hibernate:
-      ddl-auto: create
-      spring: null
+
 eureka:
   client:
     register-with-eureka: true
